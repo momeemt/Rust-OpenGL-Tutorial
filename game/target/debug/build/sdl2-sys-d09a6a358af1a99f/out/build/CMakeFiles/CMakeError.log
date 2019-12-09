@@ -1,0 +1,1469 @@
+Performing C SOURCE FILE Test HAVE_GCC_WALL failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75bcf/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_75bcf.dir/build.make CMakeFiles/cmTC_75bcf.dir/build
+Building C object CMakeFiles/cmTC_75bcf.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_WALL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wall -o CMakeFiles/cmTC_75bcf.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_WALL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wall -o CMakeFiles/cmTC_75bcf.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_75bcf.dir/src.c.o] Error 2
+make: *** [cmTC_75bcf/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f2e3/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9f2e3.dir/build.make CMakeFiles/cmTC_9f2e3.dir/build
+Building C object CMakeFiles/cmTC_9f2e3.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wdeclaration-after-statement -o CMakeFiles/cmTC_9f2e3.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wdeclaration-after-statement -o CMakeFiles/cmTC_9f2e3.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_9f2e3.dir/src.c.o] Error 2
+make: *** [cmTC_9f2e3/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9a60a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9a60a.dir/build.make CMakeFiles/cmTC_9a60a.dir/build
+Building C object CMakeFiles/cmTC_9a60a.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_ATOMICS -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9a60a.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_ATOMICS -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9a60a.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_9a60a.dir/src.c.o] Error 2
+make: *** [cmTC_9a60a/fast] Error 2
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_SYNC_LOCK_TEST_AND_SET failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_01e76/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_01e76.dir/build.make CMakeFiles/cmTC_01e76.dir/build
+Building C object CMakeFiles/cmTC_01e76.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_SYNC_LOCK_TEST_AND_SET -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_01e76.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_SYNC_LOCK_TEST_AND_SET -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_01e76.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_01e76.dir/src.c.o] Error 2
+make: *** [cmTC_01e76/fast] Error 2
+
+
+Source file was:
+int main(int argc, char **argv) {
+          int a;
+          __sync_lock_test_and_set(&a, 1);
+          __sync_lock_release(&a); }
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76df7/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_76df7.dir/build.make CMakeFiles/cmTC_76df7.dir/build
+Building C object CMakeFiles/cmTC_76df7.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_76df7.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_76df7.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_76df7.dir/src.c.o] Error 2
+make: *** [cmTC_76df7/fast] Error 2
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c7ae/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c7ae.dir/build.make CMakeFiles/cmTC_1c7ae.dir/build
+Building C object CMakeFiles/cmTC_1c7ae.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1c7ae.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1c7ae.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_1c7ae.dir/src.c.o] Error 2
+make: *** [cmTC_1c7ae/fast] Error 2
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2c73/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d2c73.dir/build.make CMakeFiles/cmTC_d2c73.dir/build
+Building C object CMakeFiles/cmTC_d2c73.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_WSHADOW -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wshadow -o CMakeFiles/cmTC_d2c73.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_GCC_WSHADOW -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wshadow -o CMakeFiles/cmTC_d2c73.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_d2c73.dir/src.c.o] Error 2
+make: *** [cmTC_d2c73/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18e4e/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_18e4e.dir/build.make CMakeFiles/cmTC_18e4e.dir/build
+Building C object CMakeFiles/cmTC_18e4e.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_MMX -mmmx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_18e4e.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_MMX -mmmx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_18e4e.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_18e4e.dir/src.c.o] Error 2
+make: *** [cmTC_18e4e/fast] Error 2
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35a4f/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35a4f.dir/build.make CMakeFiles/cmTC_35a4f.dir/build
+Building C object CMakeFiles/cmTC_35a4f.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_3DNOW -m3dnow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_35a4f.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_3DNOW -m3dnow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_35a4f.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_35a4f.dir/src.c.o] Error 2
+make: *** [cmTC_35a4f/fast] Error 2
+
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56d57/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_56d57.dir/build.make CMakeFiles/cmTC_56d57.dir/build
+Building C object CMakeFiles/cmTC_56d57.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_SSE -msse -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_56d57.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_SSE -msse -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_56d57.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_56d57.dir/src.c.o] Error 2
+make: *** [cmTC_56d57/fast] Error 2
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9aeb/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e9aeb.dir/build.make CMakeFiles/cmTC_e9aeb.dir/build
+Building C object CMakeFiles/cmTC_e9aeb.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_SSE2 -msse2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e9aeb.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_SSE2 -msse2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e9aeb.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_e9aeb.dir/src.c.o] Error 2
+make: *** [cmTC_e9aeb/fast] Error 2
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE3 failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4133a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4133a.dir/build.make CMakeFiles/cmTC_4133a.dir/build
+Building C object CMakeFiles/cmTC_4133a.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_SSE3 -msse3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4133a.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_SSE3 -msse3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4133a.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_4133a.dir/src.c.o] Error 2
+make: *** [cmTC_4133a/fast] Error 2
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file immintrin.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab704/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ab704.dir/build.make CMakeFiles/cmTC_ab704.dir/build
+Building C object CMakeFiles/cmTC_ab704.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ab704.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ab704.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_ab704.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_ab704/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8de3c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8de3c.dir/build.make CMakeFiles/cmTC_8de3c.dir/build
+Building C object CMakeFiles/cmTC_8de3c.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_ALTIVEC_H_HDR -maltivec -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8de3c.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_ALTIVEC_H_HDR -maltivec -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8de3c.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_8de3c.dir/src.c.o] Error 2
+make: *** [cmTC_8de3c/fast] Error 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e5b4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e5b4.dir/build.make CMakeFiles/cmTC_1e5b4.dir/build
+Building C object CMakeFiles/cmTC_1e5b4.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_ALTIVEC -maltivec -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1e5b4.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_ALTIVEC -maltivec -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1e5b4.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_1e5b4.dir/src.c.o] Error 2
+make: *** [cmTC_1e5b4/fast] Error 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file sys/types.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e238/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2e238.dir/build.make CMakeFiles/cmTC_2e238.dir/build
+Building C object CMakeFiles/cmTC_2e238.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2e238.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2e238.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_2e238.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_2e238/fast] Error 2
+
+
+
+Determining if the include file stdio.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00dbc/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_00dbc.dir/build.make CMakeFiles/cmTC_00dbc.dir/build
+Building C object CMakeFiles/cmTC_00dbc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_00dbc.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_00dbc.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_00dbc.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_00dbc/fast] Error 2
+
+
+
+Determining if the include file stdlib.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6b3a5/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6b3a5.dir/build.make CMakeFiles/cmTC_6b3a5.dir/build
+Building C object CMakeFiles/cmTC_6b3a5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6b3a5.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6b3a5.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_6b3a5.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_6b3a5/fast] Error 2
+
+
+
+Determining if the include file stddef.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5c60/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d5c60.dir/build.make CMakeFiles/cmTC_d5c60.dir/build
+Building C object CMakeFiles/cmTC_d5c60.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d5c60.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d5c60.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_d5c60.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_d5c60/fast] Error 2
+
+
+
+Determining if the include file stdarg.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d581/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3d581.dir/build.make CMakeFiles/cmTC_3d581.dir/build
+Building C object CMakeFiles/cmTC_3d581.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d581.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d581.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_3d581.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_3d581/fast] Error 2
+
+
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c164b/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c164b.dir/build.make CMakeFiles/cmTC_c164b.dir/build
+Building C object CMakeFiles/cmTC_c164b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c164b.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c164b.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_c164b.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_c164b/fast] Error 2
+
+
+
+Determining if the include file memory.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd3ca/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cd3ca.dir/build.make CMakeFiles/cmTC_cd3ca.dir/build
+Building C object CMakeFiles/cmTC_cd3ca.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cd3ca.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cd3ca.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_cd3ca.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_cd3ca/fast] Error 2
+
+
+
+Determining if the include file string.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45808/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_45808.dir/build.make CMakeFiles/cmTC_45808.dir/build
+Building C object CMakeFiles/cmTC_45808.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_45808.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_45808.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_45808.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_45808/fast] Error 2
+
+
+
+Determining if the include file limits.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8178/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e8178.dir/build.make CMakeFiles/cmTC_e8178.dir/build
+Building C object CMakeFiles/cmTC_e8178.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e8178.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e8178.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_e8178.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_e8178/fast] Error 2
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a982/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8a982.dir/build.make CMakeFiles/cmTC_8a982.dir/build
+Building C object CMakeFiles/cmTC_8a982.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8a982.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8a982.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_8a982.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_8a982/fast] Error 2
+
+
+
+Determining if the include file wchar.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9df67/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9df67.dir/build.make CMakeFiles/cmTC_9df67.dir/build
+Building C object CMakeFiles/cmTC_9df67.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9df67.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9df67.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_9df67.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_9df67/fast] Error 2
+
+
+
+Determining if the include file inttypes.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19e96/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_19e96.dir/build.make CMakeFiles/cmTC_19e96.dir/build
+Building C object CMakeFiles/cmTC_19e96.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_19e96.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_19e96.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_19e96.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_19e96/fast] Error 2
+
+
+
+Determining if the include file stdint.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc0c5/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc0c5.dir/build.make CMakeFiles/cmTC_cc0c5.dir/build
+Building C object CMakeFiles/cmTC_cc0c5.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cc0c5.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cc0c5.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_cc0c5.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_cc0c5/fast] Error 2
+
+
+
+Determining if the include file ctype.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba72d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ba72d.dir/build.make CMakeFiles/cmTC_ba72d.dir/build
+Building C object CMakeFiles/cmTC_ba72d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ba72d.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ba72d.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_ba72d.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_ba72d/fast] Error 2
+
+
+
+Determining if the include file math.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2ac9/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e2ac9.dir/build.make CMakeFiles/cmTC_e2ac9.dir/build
+Building C object CMakeFiles/cmTC_e2ac9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e2ac9.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e2ac9.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_e2ac9.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_e2ac9/fast] Error 2
+
+
+
+Determining if the include file iconv.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb0c6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cb0c6.dir/build.make CMakeFiles/cmTC_cb0c6.dir/build
+Building C object CMakeFiles/cmTC_cb0c6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cb0c6.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cb0c6.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_cb0c6.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_cb0c6/fast] Error 2
+
+
+
+Determining if the include file signal.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_39dac/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_39dac.dir/build.make CMakeFiles/cmTC_39dac.dir/build
+Building C object CMakeFiles/cmTC_39dac.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_39dac.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_39dac.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_39dac.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_39dac/fast] Error 2
+
+
+
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f63f6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f63f6.dir/build.make CMakeFiles/cmTC_f63f6.dir/build
+Building C object CMakeFiles/cmTC_f63f6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f63f6.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f63f6.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"'
+make[1]: *** [CMakeFiles/cmTC_f63f6.dir/CheckIncludeFile.c.o] Error 2
+make: *** [cmTC_f63f6/fast] Error 2
+
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9792c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9792c.dir/build.make CMakeFiles/cmTC_9792c.dir/build
+Building C object CMakeFiles/cmTC_9792c.dir/STDC_HEADERS.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9792c.dir/STDC_HEADERS.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9792c.dir/STDC_HEADERS.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c"'
+make[1]: *** [CMakeFiles/cmTC_9792c.dir/STDC_HEADERS.c.o] Error 2
+make: *** [cmTC_9792c/fast] Error 2
+
+
+Source:
+/* */
+#include <dlfcn.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <inttypes.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <string.h>
+#include <float.h>
+
+
+int main(void){return 0;}
+
+Determining size of size_t failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1fc2b/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1fc2b.dir/build.make CMakeFiles/cmTC_1fc2b.dir/build
+Building C object CMakeFiles/cmTC_1fc2b.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1fc2b.dir/SIZEOF_SIZE_T.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1fc2b.dir/SIZEOF_SIZE_T.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c"'
+make[1]: *** [CMakeFiles/cmTC_1fc2b.dir/SIZEOF_SIZE_T.c.o] Error 2
+make: *** [cmTC_1fc2b/fast] Error 2
+
+
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c:
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(size_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the M_PI exist failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d950d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d950d.dir/build.make CMakeFiles/cmTC_d950d.dir/build
+Building C object CMakeFiles/cmTC_d950d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d950d.dir/CheckSymbolExists.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d950d.dir/CheckSymbolExists.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"'
+make[1]: *** [CMakeFiles/cmTC_d950d.dir/CheckSymbolExists.c.o] Error 2
+make: *** [cmTC_d950d/fast] Error 2
+
+
+File /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ff7c6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ff7c6.dir/build.make CMakeFiles/cmTC_ff7c6.dir/build
+Building C object CMakeFiles/cmTC_ff7c6.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_MPROTECT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ff7c6.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_MPROTECT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ff7c6.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_ff7c6.dir/src.c.o] Error 2
+make: *** [cmTC_ff7c6/fast] Error 2
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c7550/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c7550.dir/build.make CMakeFiles/cmTC_c7550.dir/build
+Building C object CMakeFiles/cmTC_c7550.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtod -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c7550.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtod -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c7550.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_c7550.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_c7550/fast] Error 2
+
+
+
+Determining if the function malloc exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_528dd/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_528dd.dir/build.make CMakeFiles/cmTC_528dd.dir/build
+Building C object CMakeFiles/cmTC_528dd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_528dd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_528dd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_528dd.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_528dd/fast] Error 2
+
+
+
+Determining if the function calloc exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_adff5/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_adff5.dir/build.make CMakeFiles/cmTC_adff5.dir/build
+Building C object CMakeFiles/cmTC_adff5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=calloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_adff5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=calloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_adff5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_adff5.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_adff5/fast] Error 2
+
+
+
+Determining if the function realloc exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22a6a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_22a6a.dir/build.make CMakeFiles/cmTC_22a6a.dir/build
+Building C object CMakeFiles/cmTC_22a6a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=realloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_22a6a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=realloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_22a6a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_22a6a.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_22a6a/fast] Error 2
+
+
+
+Determining if the function free exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8717/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f8717.dir/build.make CMakeFiles/cmTC_f8717.dir/build
+Building C object CMakeFiles/cmTC_f8717.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=free -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f8717.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=free -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f8717.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_f8717.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_f8717/fast] Error 2
+
+
+
+Determining if the function getenv exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50c60/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_50c60.dir/build.make CMakeFiles/cmTC_50c60.dir/build
+Building C object CMakeFiles/cmTC_50c60.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=getenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_50c60.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=getenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_50c60.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_50c60.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_50c60/fast] Error 2
+
+
+
+Determining if the function setenv exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63fe5/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_63fe5.dir/build.make CMakeFiles/cmTC_63fe5.dir/build
+Building C object CMakeFiles/cmTC_63fe5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_63fe5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_63fe5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_63fe5.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_63fe5/fast] Error 2
+
+
+
+Determining if the function putenv exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1643/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f1643.dir/build.make CMakeFiles/cmTC_f1643.dir/build
+Building C object CMakeFiles/cmTC_f1643.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=putenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f1643.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=putenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f1643.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_f1643.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_f1643/fast] Error 2
+
+
+
+Determining if the function unsetenv exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a96df/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a96df.dir/build.make CMakeFiles/cmTC_a96df.dir/build
+Building C object CMakeFiles/cmTC_a96df.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a96df.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a96df.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_a96df.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_a96df/fast] Error 2
+
+
+
+Determining if the function qsort exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d0e4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8d0e4.dir/build.make CMakeFiles/cmTC_8d0e4.dir/build
+Building C object CMakeFiles/cmTC_8d0e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=qsort -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8d0e4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=qsort -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8d0e4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_8d0e4.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_8d0e4/fast] Error 2
+
+
+
+Determining if the function abs exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22278/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_22278.dir/build.make CMakeFiles/cmTC_22278.dir/build
+Building C object CMakeFiles/cmTC_22278.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_22278.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=abs -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_22278.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_22278.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_22278/fast] Error 2
+
+
+
+Determining if the function bcopy exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0e4ef/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0e4ef.dir/build.make CMakeFiles/cmTC_0e4ef.dir/build
+Building C object CMakeFiles/cmTC_0e4ef.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_0e4ef.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_0e4ef.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_0e4ef.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_0e4ef/fast] Error 2
+
+
+
+Determining if the function memset exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_babde/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_babde.dir/build.make CMakeFiles/cmTC_babde.dir/build
+Building C object CMakeFiles/cmTC_babde.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=memset -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_babde.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=memset -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_babde.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_babde.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_babde/fast] Error 2
+
+
+
+Determining if the function memcpy exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74bd2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_74bd2.dir/build.make CMakeFiles/cmTC_74bd2.dir/build
+Building C object CMakeFiles/cmTC_74bd2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_74bd2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_74bd2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_74bd2.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_74bd2/fast] Error 2
+
+
+
+Determining if the function memmove exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6dd1/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e6dd1.dir/build.make CMakeFiles/cmTC_e6dd1.dir/build
+Building C object CMakeFiles/cmTC_e6dd1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=memmove -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e6dd1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=memmove -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e6dd1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_e6dd1.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_e6dd1/fast] Error 2
+
+
+
+Determining if the function memcmp exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ea520/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ea520.dir/build.make CMakeFiles/cmTC_ea520.dir/build
+Building C object CMakeFiles/cmTC_ea520.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ea520.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=memcmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ea520.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_ea520.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_ea520/fast] Error 2
+
+
+
+Determining if the function strlen exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f0418/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f0418.dir/build.make CMakeFiles/cmTC_f0418.dir/build
+Building C object CMakeFiles/cmTC_f0418.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f0418.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f0418.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_f0418.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_f0418/fast] Error 2
+
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79bd7/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_79bd7.dir/build.make CMakeFiles/cmTC_79bd7.dir/build
+Building C object CMakeFiles/cmTC_79bd7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_79bd7.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_79bd7.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_79bd7.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_79bd7/fast] Error 2
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74444/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_74444.dir/build.make CMakeFiles/cmTC_74444.dir/build
+Building C object CMakeFiles/cmTC_74444.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_74444.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_74444.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_74444.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_74444/fast] Error 2
+
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35dd2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35dd2.dir/build.make CMakeFiles/cmTC_35dd2.dir/build
+Building C object CMakeFiles/cmTC_35dd2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_35dd2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strrev -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_35dd2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_35dd2.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_35dd2/fast] Error 2
+
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d6f6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3d6f6.dir/build.make CMakeFiles/cmTC_3d6f6.dir/build
+Building C object CMakeFiles/cmTC_3d6f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d6f6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strupr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d6f6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_3d6f6.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_3d6f6/fast] Error 2
+
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83595/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_83595.dir/build.make CMakeFiles/cmTC_83595.dir/build
+Building C object CMakeFiles/cmTC_83595.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_83595.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strlwr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_83595.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_83595.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_83595/fast] Error 2
+
+
+
+Determining if the function strchr exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d90a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7d90a.dir/build.make CMakeFiles/cmTC_7d90a.dir/build
+Building C object CMakeFiles/cmTC_7d90a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7d90a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7d90a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_7d90a.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_7d90a/fast] Error 2
+
+
+
+Determining if the function strrchr exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1251/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a1251.dir/build.make CMakeFiles/cmTC_a1251.dir/build
+Building C object CMakeFiles/cmTC_a1251.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strrchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a1251.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strrchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a1251.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_a1251.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_a1251/fast] Error 2
+
+
+
+Determining if the function strstr exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd384/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cd384.dir/build.make CMakeFiles/cmTC_cd384.dir/build
+Building C object CMakeFiles/cmTC_cd384.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strstr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cd384.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strstr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cd384.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_cd384.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_cd384/fast] Error 2
+
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf194/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bf194.dir/build.make CMakeFiles/cmTC_bf194.dir/build
+Building C object CMakeFiles/cmTC_bf194.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_bf194.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=itoa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_bf194.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_bf194.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_bf194/fast] Error 2
+
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1be16/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1be16.dir/build.make CMakeFiles/cmTC_1be16.dir/build
+Building C object CMakeFiles/cmTC_1be16.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1be16.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ltoa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1be16.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_1be16.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_1be16/fast] Error 2
+
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c1341/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c1341.dir/build.make CMakeFiles/cmTC_c1341.dir/build
+Building C object CMakeFiles/cmTC_c1341.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c1341.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c1341.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_c1341.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_c1341/fast] Error 2
+
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae457/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ae457.dir/build.make CMakeFiles/cmTC_ae457.dir/build
+Building C object CMakeFiles/cmTC_ae457.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ae457.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ultoa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ae457.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_ae457.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_ae457/fast] Error 2
+
+
+
+Determining if the function strtol exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48258/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_48258.dir/build.make CMakeFiles/cmTC_48258.dir/build
+Building C object CMakeFiles/cmTC_48258.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtol -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_48258.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtol -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_48258.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_48258.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_48258/fast] Error 2
+
+
+
+Determining if the function strtoul exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f95f6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f95f6.dir/build.make CMakeFiles/cmTC_f95f6.dir/build
+Building C object CMakeFiles/cmTC_f95f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoul -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f95f6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoul -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f95f6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_f95f6.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_f95f6/fast] Error 2
+
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_659af/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_659af.dir/build.make CMakeFiles/cmTC_659af.dir/build
+Building C object CMakeFiles/cmTC_659af.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_659af.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_i64toa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_659af.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_659af.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_659af/fast] Error 2
+
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6c678/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6c678.dir/build.make CMakeFiles/cmTC_6c678.dir/build
+Building C object CMakeFiles/cmTC_6c678.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6c678.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_ui64toa -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6c678.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_6c678.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_6c678/fast] Error 2
+
+
+
+Determining if the function strtoll exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4c69/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f4c69.dir/build.make CMakeFiles/cmTC_f4c69.dir/build
+Building C object CMakeFiles/cmTC_f4c69.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f4c69.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f4c69.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_f4c69.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_f4c69/fast] Error 2
+
+
+
+Determining if the function strtoull exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7bca2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7bca2.dir/build.make CMakeFiles/cmTC_7bca2.dir/build
+Building C object CMakeFiles/cmTC_7bca2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoull -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7bca2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strtoull -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7bca2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_7bca2.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_7bca2/fast] Error 2
+
+
+
+Determining if the function atoi exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51b1d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_51b1d.dir/build.make CMakeFiles/cmTC_51b1d.dir/build
+Building C object CMakeFiles/cmTC_51b1d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=atoi -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_51b1d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=atoi -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_51b1d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_51b1d.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_51b1d/fast] Error 2
+
+
+
+Determining if the function atof exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_21a53/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_21a53.dir/build.make CMakeFiles/cmTC_21a53.dir/build
+Building C object CMakeFiles/cmTC_21a53.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_21a53.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=atof -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_21a53.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_21a53.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_21a53/fast] Error 2
+
+
+
+Determining if the function strcmp exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b92e2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b92e2.dir/build.make CMakeFiles/cmTC_b92e2.dir/build
+Building C object CMakeFiles/cmTC_b92e2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b92e2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b92e2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_b92e2.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_b92e2/fast] Error 2
+
+
+
+Determining if the function strncmp exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8afb8/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8afb8.dir/build.make CMakeFiles/cmTC_8afb8.dir/build
+Building C object CMakeFiles/cmTC_8afb8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8afb8.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8afb8.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_8afb8.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_8afb8/fast] Error 2
+
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_936c6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_936c6.dir/build.make CMakeFiles/cmTC_936c6.dir/build
+Building C object CMakeFiles/cmTC_936c6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_936c6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_stricmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_936c6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_936c6.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_936c6/fast] Error 2
+
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_419fe/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_419fe.dir/build.make CMakeFiles/cmTC_419fe.dir/build
+Building C object CMakeFiles/cmTC_419fe.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcasecmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_419fe.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strcasecmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_419fe.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_419fe.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_419fe/fast] Error 2
+
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c0d6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c0d6.dir/build.make CMakeFiles/cmTC_1c0d6.dir/build
+Building C object CMakeFiles/cmTC_1c0d6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1c0d6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=_strnicmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1c0d6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_1c0d6.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_1c0d6/fast] Error 2
+
+
+
+Determining if the function strncasecmp exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5cec0/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5cec0.dir/build.make CMakeFiles/cmTC_5cec0.dir/build
+Building C object CMakeFiles/cmTC_5cec0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncasecmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5cec0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=strncasecmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5cec0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_5cec0.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_5cec0/fast] Error 2
+
+
+
+Determining if the function vsscanf exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1387/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e1387.dir/build.make CMakeFiles/cmTC_e1387.dir/build
+Building C object CMakeFiles/cmTC_e1387.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsscanf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e1387.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsscanf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e1387.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_e1387.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_e1387/fast] Error 2
+
+
+
+Determining if the function vsnprintf exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d425/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3d425.dir/build.make CMakeFiles/cmTC_3d425.dir/build
+Building C object CMakeFiles/cmTC_3d425.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsnprintf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d425.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=vsnprintf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d425.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_3d425.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_3d425/fast] Error 2
+
+
+
+Determining if the function fopen64 exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e174/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2e174.dir/build.make CMakeFiles/cmTC_2e174.dir/build
+Building C object CMakeFiles/cmTC_2e174.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=fopen64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2e174.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=fopen64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2e174.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_2e174.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_2e174/fast] Error 2
+
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5114/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d5114.dir/build.make CMakeFiles/cmTC_d5114.dir/build
+Building C object CMakeFiles/cmTC_d5114.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d5114.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d5114.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_d5114.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_d5114/fast] Error 2
+
+
+
+Determining if the function fseeko64 exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bc9c1/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bc9c1.dir/build.make CMakeFiles/cmTC_bc9c1.dir/build
+Building C object CMakeFiles/cmTC_bc9c1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_bc9c1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=fseeko64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_bc9c1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_bc9c1.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_bc9c1/fast] Error 2
+
+
+
+Determining if the function sigaction exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_186b0/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_186b0.dir/build.make CMakeFiles/cmTC_186b0.dir/build
+Building C object CMakeFiles/cmTC_186b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_186b0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_186b0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_186b0.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_186b0/fast] Error 2
+
+
+
+Determining if the function setjmp exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88f31/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_88f31.dir/build.make CMakeFiles/cmTC_88f31.dir/build
+Building C object CMakeFiles/cmTC_88f31.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_88f31.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_88f31.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_88f31.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_88f31/fast] Error 2
+
+
+
+Determining if the function nanosleep exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1e3c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f1e3c.dir/build.make CMakeFiles/cmTC_f1e3c.dir/build
+Building C object CMakeFiles/cmTC_f1e3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=nanosleep -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f1e3c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=nanosleep -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f1e3c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_f1e3c.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_f1e3c/fast] Error 2
+
+
+
+Determining if the function sysconf exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d19c9/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d19c9.dir/build.make CMakeFiles/cmTC_d19c9.dir/build
+Building C object CMakeFiles/cmTC_d19c9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d19c9.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d19c9.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_d19c9.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_d19c9/fast] Error 2
+
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ec09/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3ec09.dir/build.make CMakeFiles/cmTC_3ec09.dir/build
+Building C object CMakeFiles/cmTC_3ec09.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3ec09.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3ec09.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_3ec09.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_3ec09/fast] Error 2
+
+
+
+Determining if the function getauxval exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92894/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_92894.dir/build.make CMakeFiles/cmTC_92894.dir/build
+Building C object CMakeFiles/cmTC_92894.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_92894.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_92894.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_92894.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_92894/fast] Error 2
+
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76cb0/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_76cb0.dir/build.make CMakeFiles/cmTC_76cb0.dir/build
+Building C object CMakeFiles/cmTC_76cb0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_76cb0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_76cb0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_76cb0.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_76cb0/fast] Error 2
+
+
+
+Determining if the function pow exists in the m failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_babc5/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_babc5.dir/build.make CMakeFiles/cmTC_babc5.dir/build
+Building C object CMakeFiles/cmTC_babc5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_babc5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=pow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_babc5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_babc5.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_babc5/fast] Error 2
+
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a736/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2a736.dir/build.make CMakeFiles/cmTC_2a736.dir/build
+Building C object CMakeFiles/cmTC_2a736.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2a736.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2a736.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_2a736.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_2a736/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27680/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_27680.dir/build.make CMakeFiles/cmTC_27680.dir/build
+Building C object CMakeFiles/cmTC_27680.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_SA_SIGACTION -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_27680.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_SA_SIGACTION -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_27680.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_27680.dir/src.c.o] Error 2
+make: *** [cmTC_27680/fast] Error 2
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca889/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ca889.dir/build.make CMakeFiles/cmTC_ca889.dir/build
+Building C object CMakeFiles/cmTC_ca889.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ca889.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ca889.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_ca889.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_ca889/fast] Error 2
+
+
+
+Determining if the function dlopen exists in the dl failed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5de02/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5de02.dir/build.make CMakeFiles/cmTC_5de02.dir/build
+Building C object CMakeFiles/cmTC_5de02.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5de02.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5de02.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c'
+make[1]: *** [CMakeFiles/cmTC_5de02.dir/CheckFunctionExists.c.o] Error 2
+make: *** [cmTC_5de02/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREADS failed with the following compile output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_135e3/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_135e3.dir/build.make CMakeFiles/cmTC_135e3.dir/build
+Building C object CMakeFiles/cmTC_135e3.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_PTHREADS  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_135e3.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"
+/bin/sh: -c: line 0: syntax error near unexpected token `('
+/bin/sh: -c: line 0: `/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -idirafter /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/SDL2-2.0.9/src/video/khronos -DHAVE_PTHREADS  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_135e3.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-d09a6a358af1a99f/out/build/CMakeFiles/CMakeTmp/src.c"'
+make[1]: *** [CMakeFiles/cmTC_135e3.dir/src.c.o] Error 2
+make: *** [cmTC_135e3/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }

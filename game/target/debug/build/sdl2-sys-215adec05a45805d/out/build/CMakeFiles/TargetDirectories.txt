@@ -1,0 +1,9 @@
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/list_install_components.dir
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/rebuild_cache.dir
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/edit_cache.dir
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/install/strip.dir
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/install.dir
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/uninstall.dir
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/install/local.dir
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/SDL2-static.dir
+/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/SDL2main.dir

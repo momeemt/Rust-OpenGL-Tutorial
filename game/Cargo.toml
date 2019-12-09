@@ -1,0 +1,11 @@
+[package]
+name = "game"
+version = "0.1.0"
+authors = ["aq17 <aqneco@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.sdl2]
+version = "0.31.0"
+features = ["bundled", "static-link"]

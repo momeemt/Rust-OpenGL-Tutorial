@@ -1,0 +1,1902 @@
+The system is: Darwin - 19.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: ;-ffunction-sections;-fdata-sections;-fPIC;-m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/3.15.4/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80b4c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_80b4c.dir/build.make CMakeFiles/cmTC_80b4c.dir/build
+Building C object CMakeFiles/cmTC_80b4c.dir/testCCompiler.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_80b4c.dir/testCCompiler.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_80b4c
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80b4c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_80b4c.dir/testCCompiler.c.o  -o cmTC_80b4c 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ce85/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3ce85.dir/build.make CMakeFiles/cmTC_3ce85.dir/build
+Building C object CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 512.4 -v -ffunction-sections -fdata-sections -coverage-notes-file /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/11.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.0 (clang-1100.0.33.8) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_3ce85
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ce85.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o  -o cmTC_3ce85 
+Apple clang version 11.0.0 (clang-1100.0.33.8)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o cmTC_3ce85 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-512.4
+BUILD 05:06:53 Aug 16 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_3ce85/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3ce85.dir/build.make CMakeFiles/cmTC_3ce85.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.8)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 512.4 -v -ffunction-sections -fdata-sections -coverage-notes-file /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/11.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.8) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_3ce85]
+  ignore line: [/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ce85.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o  -o cmTC_3ce85 ]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.8)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o cmTC_3ce85 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3ce85] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_3ce85.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9dc55/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9dc55.dir/build.make CMakeFiles/cmTC_9dc55.dir/build
+Building C object CMakeFiles/cmTC_9dc55.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_WALL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wall -o CMakeFiles/cmTC_9dc55.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_9dc55
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dc55.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_WALL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9dc55.dir/src.c.o  -o cmTC_9dc55 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91b1b/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_91b1b.dir/build.make CMakeFiles/cmTC_91b1b.dir/build
+Building C object CMakeFiles/cmTC_91b1b.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wdeclaration-after-statement -o CMakeFiles/cmTC_91b1b.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_91b1b
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91b1b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_91b1b.dir/src.c.o  -o cmTC_91b1b 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0e65/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e0e65.dir/build.make CMakeFiles/cmTC_e0e65.dir/build
+Building C object CMakeFiles/cmTC_e0e65.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Werror=declaration-after-statement -o CMakeFiles/cmTC_e0e65.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_e0e65
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e65.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0e65.dir/src.c.o  -o cmTC_e0e65 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8afc6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8afc6.dir/build.make CMakeFiles/cmTC_8afc6.dir/build
+Building C object CMakeFiles/cmTC_8afc6.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8afc6.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_8afc6
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8afc6.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8afc6.dir/src.c.o  -o cmTC_8afc6 
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5046/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d5046.dir/build.make CMakeFiles/cmTC_d5046.dir/build
+Building C object CMakeFiles/cmTC_d5046.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_WSHADOW -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -Wshadow -o CMakeFiles/cmTC_d5046.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_d5046
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5046.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_GCC_WSHADOW -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d5046.dir/src.c.o  -o cmTC_d5046 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a6c8b/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a6c8b.dir/build.make CMakeFiles/cmTC_a6c8b.dir/build
+Building C object CMakeFiles/cmTC_a6c8b.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_MMX -mmmx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a6c8b.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_a6c8b
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6c8b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_MMX -mmmx -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a6c8b.dir/src.c.o  -o cmTC_a6c8b 
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d766a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d766a.dir/build.make CMakeFiles/cmTC_d766a.dir/build
+Building C object CMakeFiles/cmTC_d766a.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_3DNOW -m3dnow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d766a.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_d766a
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d766a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_3DNOW -m3dnow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d766a.dir/src.c.o  -o cmTC_d766a 
+
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_584c3/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_584c3.dir/build.make CMakeFiles/cmTC_584c3.dir/build
+Building C object CMakeFiles/cmTC_584c3.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SSE -msse -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_584c3.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_584c3
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_584c3.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SSE -msse -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_584c3.dir/src.c.o  -o cmTC_584c3 
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc551/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc551.dir/build.make CMakeFiles/cmTC_cc551.dir/build
+Building C object CMakeFiles/cmTC_cc551.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SSE2 -msse2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cc551.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_cc551
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc551.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SSE2 -msse2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc551.dir/src.c.o  -o cmTC_cc551 
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b187d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b187d.dir/build.make CMakeFiles/cmTC_b187d.dir/build
+Building C object CMakeFiles/cmTC_b187d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b187d.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_b187d
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b187d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b187d.dir/CheckIncludeFile.c.o  -o cmTC_b187d 
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07fa1/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_07fa1.dir/build.make CMakeFiles/cmTC_07fa1.dir/build
+Building C object CMakeFiles/cmTC_07fa1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_07fa1.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_07fa1
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07fa1.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_07fa1.dir/CheckIncludeFile.c.o  -o cmTC_07fa1 
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ad2a7/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ad2a7.dir/build.make CMakeFiles/cmTC_ad2a7.dir/build
+Building C object CMakeFiles/cmTC_ad2a7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ad2a7.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_ad2a7
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad2a7.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ad2a7.dir/CheckIncludeFile.c.o  -o cmTC_ad2a7 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79651/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_79651.dir/build.make CMakeFiles/cmTC_79651.dir/build
+Building C object CMakeFiles/cmTC_79651.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_79651.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_79651
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79651.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_79651.dir/CheckIncludeFile.c.o  -o cmTC_79651 
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f980/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4f980.dir/build.make CMakeFiles/cmTC_4f980.dir/build
+Building C object CMakeFiles/cmTC_4f980.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4f980.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_4f980
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f980.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4f980.dir/CheckIncludeFile.c.o  -o cmTC_4f980 
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aff56/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aff56.dir/build.make CMakeFiles/cmTC_aff56.dir/build
+Building C object CMakeFiles/cmTC_aff56.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_aff56.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_aff56
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aff56.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aff56.dir/CheckIncludeFile.c.o  -o cmTC_aff56 
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42b2e/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_42b2e.dir/build.make CMakeFiles/cmTC_42b2e.dir/build
+Building C object CMakeFiles/cmTC_42b2e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_42b2e.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_42b2e
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42b2e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_42b2e.dir/CheckIncludeFile.c.o  -o cmTC_42b2e 
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6370/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b6370.dir/build.make CMakeFiles/cmTC_b6370.dir/build
+Building C object CMakeFiles/cmTC_b6370.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b6370.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_b6370
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6370.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b6370.dir/CheckIncludeFile.c.o  -o cmTC_b6370 
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b38b/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2b38b.dir/build.make CMakeFiles/cmTC_2b38b.dir/build
+Building C object CMakeFiles/cmTC_2b38b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2b38b.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_2b38b
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b38b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2b38b.dir/CheckIncludeFile.c.o  -o cmTC_2b38b 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0af4c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0af4c.dir/build.make CMakeFiles/cmTC_0af4c.dir/build
+Building C object CMakeFiles/cmTC_0af4c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_0af4c.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_0af4c
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af4c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0af4c.dir/CheckIncludeFile.c.o  -o cmTC_0af4c 
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e65b9/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e65b9.dir/build.make CMakeFiles/cmTC_e65b9.dir/build
+Building C object CMakeFiles/cmTC_e65b9.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e65b9.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_e65b9
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e65b9.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e65b9.dir/CheckIncludeFile.c.o  -o cmTC_e65b9 
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e939/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e939.dir/build.make CMakeFiles/cmTC_1e939.dir/build
+Building C object CMakeFiles/cmTC_1e939.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1e939.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_1e939
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e939.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e939.dir/CheckIncludeFile.c.o  -o cmTC_1e939 
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c719/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7c719.dir/build.make CMakeFiles/cmTC_7c719.dir/build
+Building C object CMakeFiles/cmTC_7c719.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7c719.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_7c719
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c719.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c719.dir/CheckIncludeFile.c.o  -o cmTC_7c719 
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_960dd/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_960dd.dir/build.make CMakeFiles/cmTC_960dd.dir/build
+Building C object CMakeFiles/cmTC_960dd.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_960dd.dir/CheckIncludeFile.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_960dd
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_960dd.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_960dd.dir/CheckIncludeFile.c.o  -o cmTC_960dd 
+
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3badb/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3badb.dir/build.make CMakeFiles/cmTC_3badb.dir/build
+Building C object CMakeFiles/cmTC_3badb.dir/STDC_HEADERS.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3badb.dir/STDC_HEADERS.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c"
+Linking C executable cmTC_3badb
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3badb.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3badb.dir/STDC_HEADERS.c.o  -o cmTC_3badb 
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83a62/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_83a62.dir/build.make CMakeFiles/cmTC_83a62.dir/build
+Building C object CMakeFiles/cmTC_83a62.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_83a62.dir/SIZEOF_SIZE_T.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c"
+Linking C executable cmTC_83a62
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a62.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_83a62.dir/SIZEOF_SIZE_T.c.o  -o cmTC_83a62 
+
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b832a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b832a.dir/build.make CMakeFiles/cmTC_b832a.dir/build
+Building C object CMakeFiles/cmTC_b832a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b832a.dir/CheckSymbolExists.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_b832a
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b832a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b832a.dir/CheckSymbolExists.c.o  -o cmTC_b832a 
+
+
+File /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab49c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ab49c.dir/build.make CMakeFiles/cmTC_ab49c.dir/build
+Building C object CMakeFiles/cmTC_ab49c.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_MPROTECT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ab49c.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_ab49c
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab49c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_MPROTECT -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab49c.dir/src.c.o  -o cmTC_ab49c 
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c8a4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9c8a4.dir/build.make CMakeFiles/cmTC_9c8a4.dir/build
+Building C object CMakeFiles/cmTC_9c8a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtod -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9c8a4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtod' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtod
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtod' is a builtin with type 'double (const char *, char **)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtod
+                              ^
+1 warning generated.
+Linking C executable cmTC_9c8a4
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c8a4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtod -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9c8a4.dir/CheckFunctionExists.c.o  -o cmTC_9c8a4 
+
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5b329/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5b329.dir/build.make CMakeFiles/cmTC_5b329.dir/build
+Building C object CMakeFiles/cmTC_5b329.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5b329.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_5b329
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b329.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5b329.dir/CheckFunctionExists.c.o  -o cmTC_5b329 
+
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f838/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1f838.dir/build.make CMakeFiles/cmTC_1f838.dir/build
+Building C object CMakeFiles/cmTC_1f838.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=calloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1f838.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'calloc' is a builtin with type 'void *(unsigned long, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_1f838
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f838.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=calloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1f838.dir/CheckFunctionExists.c.o  -o cmTC_1f838 
+
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74b91/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_74b91.dir/build.make CMakeFiles/cmTC_74b91.dir/build
+Building C object CMakeFiles/cmTC_74b91.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=realloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_74b91.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'realloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'realloc' is a builtin with type 'void *(void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+1 warning generated.
+Linking C executable cmTC_74b91
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74b91.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=realloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_74b91.dir/CheckFunctionExists.c.o  -o cmTC_74b91 
+
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e3927/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e3927.dir/build.make CMakeFiles/cmTC_e3927.dir/build
+Building C object CMakeFiles/cmTC_e3927.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=free -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e3927.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e3927
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3927.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=free -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e3927.dir/CheckFunctionExists.c.o  -o cmTC_e3927 
+
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_475a2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_475a2.dir/build.make CMakeFiles/cmTC_475a2.dir/build
+Building C object CMakeFiles/cmTC_475a2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=getenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_475a2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_475a2
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_475a2.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=getenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_475a2.dir/CheckFunctionExists.c.o  -o cmTC_475a2 
+
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a15ee/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a15ee.dir/build.make CMakeFiles/cmTC_a15ee.dir/build
+Building C object CMakeFiles/cmTC_a15ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=setenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a15ee.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a15ee
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a15ee.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=setenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a15ee.dir/CheckFunctionExists.c.o  -o cmTC_a15ee 
+
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f49c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4f49c.dir/build.make CMakeFiles/cmTC_4f49c.dir/build
+Building C object CMakeFiles/cmTC_4f49c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=putenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4f49c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4f49c
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f49c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=putenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4f49c.dir/CheckFunctionExists.c.o  -o cmTC_4f49c 
+
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a3de/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7a3de.dir/build.make CMakeFiles/cmTC_7a3de.dir/build
+Building C object CMakeFiles/cmTC_7a3de.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=unsetenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7a3de.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a3de
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a3de.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=unsetenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7a3de.dir/CheckFunctionExists.c.o  -o cmTC_7a3de 
+
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d00a4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d00a4.dir/build.make CMakeFiles/cmTC_d00a4.dir/build
+Building C object CMakeFiles/cmTC_d00a4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=qsort -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d00a4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d00a4
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d00a4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=qsort -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d00a4.dir/CheckFunctionExists.c.o  -o cmTC_d00a4 
+
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3484d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3484d.dir/build.make CMakeFiles/cmTC_3484d.dir/build
+Building C object CMakeFiles/cmTC_3484d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=abs -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3484d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'abs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'abs' is a builtin with type 'int (int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+1 warning generated.
+Linking C executable cmTC_3484d
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3484d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=abs -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3484d.dir/CheckFunctionExists.c.o  -o cmTC_3484d 
+
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c2ee/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3c2ee.dir/build.make CMakeFiles/cmTC_3c2ee.dir/build
+Building C object CMakeFiles/cmTC_3c2ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=bcopy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3c2ee.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3c2ee
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c2ee.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=bcopy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3c2ee.dir/CheckFunctionExists.c.o  -o cmTC_3c2ee 
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c548a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c548a.dir/build.make CMakeFiles/cmTC_c548a.dir/build
+Building C object CMakeFiles/cmTC_c548a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=memset -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c548a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTC_c548a
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c548a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=memset -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c548a.dir/CheckFunctionExists.c.o  -o cmTC_c548a 
+
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fffe4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fffe4.dir/build.make CMakeFiles/cmTC_fffe4.dir/build
+Building C object CMakeFiles/cmTC_fffe4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_fffe4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_fffe4
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fffe4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=memcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fffe4.dir/CheckFunctionExists.c.o  -o cmTC_fffe4 
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8ab8/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e8ab8.dir/build.make CMakeFiles/cmTC_e8ab8.dir/build
+Building C object CMakeFiles/cmTC_e8ab8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=memmove -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e8ab8.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+Linking C executable cmTC_e8ab8
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8ab8.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=memmove -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8ab8.dir/CheckFunctionExists.c.o  -o cmTC_e8ab8 
+
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc5ad/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fc5ad.dir/build.make CMakeFiles/cmTC_fc5ad.dir/build
+Building C object CMakeFiles/cmTC_fc5ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=memcmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_fc5ad.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_fc5ad
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc5ad.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=memcmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fc5ad.dir/CheckFunctionExists.c.o  -o cmTC_fc5ad 
+
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63dee/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_63dee.dir/build.make CMakeFiles/cmTC_63dee.dir/build
+Building C object CMakeFiles/cmTC_63dee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_63dee.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strlen' is a builtin with type 'unsigned long (const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+Linking C executable cmTC_63dee
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63dee.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_63dee.dir/CheckFunctionExists.c.o  -o cmTC_63dee 
+
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d606/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7d606.dir/build.make CMakeFiles/cmTC_7d606.dir/build
+Building C object CMakeFiles/cmTC_7d606.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7d606.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strlcpy' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+1 warning generated.
+Linking C executable cmTC_7d606
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d606.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7d606.dir/CheckFunctionExists.c.o  -o cmTC_7d606 
+
+
+
+Determining if the function strlcat exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93751/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_93751.dir/build.make CMakeFiles/cmTC_93751.dir/build
+Building C object CMakeFiles/cmTC_93751.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlcat -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_93751.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcat' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strlcat' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+1 warning generated.
+Linking C executable cmTC_93751
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93751.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlcat -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_93751.dir/CheckFunctionExists.c.o  -o cmTC_93751 
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d9cb/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3d9cb.dir/build.make CMakeFiles/cmTC_3d9cb.dir/build
+Building C object CMakeFiles/cmTC_3d9cb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strdup -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d9cb.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strdup' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strdup' is a builtin with type 'char *(const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+1 warning generated.
+Linking C executable cmTC_3d9cb
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d9cb.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strdup -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3d9cb.dir/CheckFunctionExists.c.o  -o cmTC_3d9cb 
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cbb33/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cbb33.dir/build.make CMakeFiles/cmTC_cbb33.dir/build
+Building C object CMakeFiles/cmTC_cbb33.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cbb33.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_cbb33
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbb33.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cbb33.dir/CheckFunctionExists.c.o  -o cmTC_cbb33 
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a2656/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a2656.dir/build.make CMakeFiles/cmTC_a2656.dir/build
+Building C object CMakeFiles/cmTC_a2656.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strrchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a2656.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+Linking C executable cmTC_a2656
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2656.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strrchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a2656.dir/CheckFunctionExists.c.o  -o cmTC_a2656 
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5dcdc/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5dcdc.dir/build.make CMakeFiles/cmTC_5dcdc.dir/build
+Building C object CMakeFiles/cmTC_5dcdc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strstr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5dcdc.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+Linking C executable cmTC_5dcdc
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dcdc.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strstr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5dcdc.dir/CheckFunctionExists.c.o  -o cmTC_5dcdc 
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_05cb4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_05cb4.dir/build.make CMakeFiles/cmTC_05cb4.dir/build
+Building C object CMakeFiles/cmTC_05cb4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtol -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_05cb4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtol' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtol
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtol' is a builtin with type 'long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtol
+                              ^
+1 warning generated.
+Linking C executable cmTC_05cb4
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05cb4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtol -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_05cb4.dir/CheckFunctionExists.c.o  -o cmTC_05cb4 
+
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_87301/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_87301.dir/build.make CMakeFiles/cmTC_87301.dir/build
+Building C object CMakeFiles/cmTC_87301.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtoul -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_87301.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoul' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoul
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtoul' is a builtin with type 'unsigned long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoul
+                              ^
+1 warning generated.
+Linking C executable cmTC_87301
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87301.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtoul -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_87301.dir/CheckFunctionExists.c.o  -o cmTC_87301 
+
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b87d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1b87d.dir/build.make CMakeFiles/cmTC_1b87d.dir/build
+Building C object CMakeFiles/cmTC_1b87d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtoll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1b87d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoll' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoll
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtoll' is a builtin with type 'long long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoll
+                              ^
+1 warning generated.
+Linking C executable cmTC_1b87d
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b87d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtoll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1b87d.dir/CheckFunctionExists.c.o  -o cmTC_1b87d 
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5c022/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5c022.dir/build.make CMakeFiles/cmTC_5c022.dir/build
+Building C object CMakeFiles/cmTC_5c022.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtoull -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5c022.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoull' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strtoull' is a builtin with type 'unsigned long long (const char *, char **, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+1 warning generated.
+Linking C executable cmTC_5c022
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c022.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strtoull -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5c022.dir/CheckFunctionExists.c.o  -o cmTC_5c022 
+
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ebac/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4ebac.dir/build.make CMakeFiles/cmTC_4ebac.dir/build
+Building C object CMakeFiles/cmTC_4ebac.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=atoi -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4ebac.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4ebac
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ebac.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=atoi -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4ebac.dir/CheckFunctionExists.c.o  -o cmTC_4ebac 
+
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8a79/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e8a79.dir/build.make CMakeFiles/cmTC_e8a79.dir/build
+Building C object CMakeFiles/cmTC_e8a79.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=atof -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e8a79.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e8a79
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8a79.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=atof -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8a79.dir/CheckFunctionExists.c.o  -o cmTC_e8a79 
+
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc1ce/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cc1ce.dir/build.make CMakeFiles/cmTC_cc1ce.dir/build
+Building C object CMakeFiles/cmTC_cc1ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strcmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cc1ce.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_cc1ce
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc1ce.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strcmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cc1ce.dir/CheckFunctionExists.c.o  -o cmTC_cc1ce 
+
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18b1c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_18b1c.dir/build.make CMakeFiles/cmTC_18b1c.dir/build
+Building C object CMakeFiles/cmTC_18b1c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strncmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_18b1c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_18b1c
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18b1c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strncmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18b1c.dir/CheckFunctionExists.c.o  -o cmTC_18b1c 
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7884/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d7884.dir/build.make CMakeFiles/cmTC_d7884.dir/build
+Building C object CMakeFiles/cmTC_d7884.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strcasecmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d7884.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_d7884
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7884.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strcasecmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d7884.dir/CheckFunctionExists.c.o  -o cmTC_d7884 
+
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b45c0/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b45c0.dir/build.make CMakeFiles/cmTC_b45c0.dir/build
+Building C object CMakeFiles/cmTC_b45c0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strncasecmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b45c0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_b45c0
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b45c0.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strncasecmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b45c0.dir/CheckFunctionExists.c.o  -o cmTC_b45c0 
+
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df4e8/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_df4e8.dir/build.make CMakeFiles/cmTC_df4e8.dir/build
+Building C object CMakeFiles/cmTC_df4e8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=vsscanf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_df4e8.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsscanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'vsscanf' is a builtin with type 'int (const char *restrict, const char *restrict, struct __va_list_tag *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_df4e8
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df4e8.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=vsscanf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_df4e8.dir/CheckFunctionExists.c.o  -o cmTC_df4e8 
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43593/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_43593.dir/build.make CMakeFiles/cmTC_43593.dir/build
+Building C object CMakeFiles/cmTC_43593.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=vsnprintf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_43593.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, struct __va_list_tag *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+Linking C executable cmTC_43593
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43593.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=vsnprintf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43593.dir/CheckFunctionExists.c.o  -o cmTC_43593 
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d319/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3d319.dir/build.make CMakeFiles/cmTC_3d319.dir/build
+Building C object CMakeFiles/cmTC_3d319.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d319.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3d319
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d319.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=fseeko -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3d319.dir/CheckFunctionExists.c.o  -o cmTC_3d319 
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ecb4/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6ecb4.dir/build.make CMakeFiles/cmTC_6ecb4.dir/build
+Building C object CMakeFiles/cmTC_6ecb4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6ecb4.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6ecb4
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ecb4.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6ecb4.dir/CheckFunctionExists.c.o  -o cmTC_6ecb4 
+
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_567a2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_567a2.dir/build.make CMakeFiles/cmTC_567a2.dir/build
+Building C object CMakeFiles/cmTC_567a2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=setjmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_567a2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+Linking C executable cmTC_567a2
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_567a2.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=setjmp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_567a2.dir/CheckFunctionExists.c.o  -o cmTC_567a2 
+
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f6be/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8f6be.dir/build.make CMakeFiles/cmTC_8f6be.dir/build
+Building C object CMakeFiles/cmTC_8f6be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=nanosleep -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8f6be.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8f6be
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f6be.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=nanosleep -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8f6be.dir/CheckFunctionExists.c.o  -o cmTC_8f6be 
+
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f04cd/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f04cd.dir/build.make CMakeFiles/cmTC_f04cd.dir/build
+Building C object CMakeFiles/cmTC_f04cd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sysconf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f04cd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f04cd
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f04cd.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sysconf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f04cd.dir/CheckFunctionExists.c.o  -o cmTC_f04cd 
+
+
+
+Determining if the function sysctlbyname exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75976/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_75976.dir/build.make CMakeFiles/cmTC_75976.dir/build
+Building C object CMakeFiles/cmTC_75976.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sysctlbyname -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_75976.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75976
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75976.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sysctlbyname -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_75976.dir/CheckFunctionExists.c.o  -o cmTC_75976 
+
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d52e0/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d52e0.dir/build.make CMakeFiles/cmTC_d52e0.dir/build
+Building C object CMakeFiles/cmTC_d52e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d52e0.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_d52e0
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d52e0.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d52e0.dir/CheckFunctionExists.c.o  -o cmTC_d52e0 -lm 
+
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f241/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4f241.dir/build.make CMakeFiles/cmTC_4f241.dir/build
+Building C object CMakeFiles/cmTC_4f241.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=atan -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4f241.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'atan' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+1 warning generated.
+Linking C executable cmTC_4f241
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f241.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=atan -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4f241.dir/CheckFunctionExists.c.o  -o cmTC_4f241 -lm 
+
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_84ba9/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_84ba9.dir/build.make CMakeFiles/cmTC_84ba9.dir/build
+Building C object CMakeFiles/cmTC_84ba9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=atan2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_84ba9.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan2' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'atan2' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+1 warning generated.
+Linking C executable cmTC_84ba9
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84ba9.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=atan2 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_84ba9.dir/CheckFunctionExists.c.o  -o cmTC_84ba9 -lm 
+
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba90c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ba90c.dir/build.make CMakeFiles/cmTC_ba90c.dir/build
+Building C object CMakeFiles/cmTC_ba90c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=ceil -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ba90c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+Linking C executable cmTC_ba90c
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba90c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=ceil -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ba90c.dir/CheckFunctionExists.c.o  -o cmTC_ba90c -lm 
+
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10775/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_10775.dir/build.make CMakeFiles/cmTC_10775.dir/build
+Building C object CMakeFiles/cmTC_10775.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=copysign -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_10775.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'copysign' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+1 warning generated.
+Linking C executable cmTC_10775
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10775.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=copysign -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_10775.dir/CheckFunctionExists.c.o  -o cmTC_10775 -lm 
+
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1ca10/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1ca10.dir/build.make CMakeFiles/cmTC_1ca10.dir/build
+Building C object CMakeFiles/cmTC_1ca10.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=cos -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1ca10.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+Linking C executable cmTC_1ca10
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ca10.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=cos -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1ca10.dir/CheckFunctionExists.c.o  -o cmTC_1ca10 -lm 
+
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f35b5/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f35b5.dir/build.make CMakeFiles/cmTC_f35b5.dir/build
+Building C object CMakeFiles/cmTC_f35b5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=cosf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f35b5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cosf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'cosf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+1 warning generated.
+Linking C executable cmTC_f35b5
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f35b5.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=cosf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f35b5.dir/CheckFunctionExists.c.o  -o cmTC_f35b5 -lm 
+
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_746ad/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_746ad.dir/build.make CMakeFiles/cmTC_746ad.dir/build
+Building C object CMakeFiles/cmTC_746ad.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=fabs -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_746ad.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'fabs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'fabs' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+1 warning generated.
+Linking C executable cmTC_746ad
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_746ad.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=fabs -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_746ad.dir/CheckFunctionExists.c.o  -o cmTC_746ad -lm 
+
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f42c/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1f42c.dir/build.make CMakeFiles/cmTC_1f42c.dir/build
+Building C object CMakeFiles/cmTC_1f42c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=floor -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1f42c.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+Linking C executable cmTC_1f42c
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f42c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=floor -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1f42c.dir/CheckFunctionExists.c.o  -o cmTC_1f42c -lm 
+
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a313f/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a313f.dir/build.make CMakeFiles/cmTC_a313f.dir/build
+Building C object CMakeFiles/cmTC_a313f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=log -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a313f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'log' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+Linking C executable cmTC_a313f
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a313f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=log -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a313f.dir/CheckFunctionExists.c.o  -o cmTC_a313f -lm 
+
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cfec6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cfec6.dir/build.make CMakeFiles/cmTC_cfec6.dir/build
+Building C object CMakeFiles/cmTC_cfec6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cfec6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+Linking C executable cmTC_cfec6
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfec6.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pow -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cfec6.dir/CheckFunctionExists.c.o  -o cmTC_cfec6 -lm 
+
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4ff6/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4ff6.dir/build.make CMakeFiles/cmTC_d4ff6.dir/build
+Building C object CMakeFiles/cmTC_d4ff6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=scalbn -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d4ff6.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'scalbn' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'scalbn' is a builtin with type 'double (double, int)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+1 warning generated.
+Linking C executable cmTC_d4ff6
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4ff6.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=scalbn -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4ff6.dir/CheckFunctionExists.c.o  -o cmTC_d4ff6 -lm 
+
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_83a0a/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_83a0a.dir/build.make CMakeFiles/cmTC_83a0a.dir/build
+Building C object CMakeFiles/cmTC_83a0a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sin -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_83a0a.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sin' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+1 warning generated.
+Linking C executable cmTC_83a0a
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83a0a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sin -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_83a0a.dir/CheckFunctionExists.c.o  -o cmTC_83a0a -lm 
+
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cbdd5/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cbdd5.dir/build.make CMakeFiles/cmTC_cbdd5.dir/build
+Building C object CMakeFiles/cmTC_cbdd5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sinf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cbdd5.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sinf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sinf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+1 warning generated.
+Linking C executable cmTC_cbdd5
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbdd5.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sinf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cbdd5.dir/CheckFunctionExists.c.o  -o cmTC_cbdd5 -lm 
+
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_623be/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_623be.dir/build.make CMakeFiles/cmTC_623be.dir/build
+Building C object CMakeFiles/cmTC_623be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sqrt -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_623be.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_623be
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_623be.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sqrt -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_623be.dir/CheckFunctionExists.c.o  -o cmTC_623be -lm 
+
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d6b2/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9d6b2.dir/build.make CMakeFiles/cmTC_9d6b2.dir/build
+Building C object CMakeFiles/cmTC_9d6b2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sqrtf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9d6b2.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrtf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sqrtf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+1 warning generated.
+Linking C executable cmTC_9d6b2
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d6b2.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=sqrtf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9d6b2.dir/CheckFunctionExists.c.o  -o cmTC_9d6b2 -lm 
+
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18773/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_18773.dir/build.make CMakeFiles/cmTC_18773.dir/build
+Building C object CMakeFiles/cmTC_18773.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=tan -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_18773.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'tan' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+1 warning generated.
+Linking C executable cmTC_18773
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18773.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=tan -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18773.dir/CheckFunctionExists.c.o  -o cmTC_18773 -lm 
+
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f2ef/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2f2ef.dir/build.make CMakeFiles/cmTC_2f2ef.dir/build
+Building C object CMakeFiles/cmTC_2f2ef.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=tanf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2f2ef.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'tanf' is a builtin with type 'float (float)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+1 warning generated.
+Linking C executable cmTC_2f2ef
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f2ef.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=tanf -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2f2ef.dir/CheckFunctionExists.c.o  -o cmTC_2f2ef -lm 
+
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd389/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cd389.dir/build.make CMakeFiles/cmTC_cd389.dir/build
+Building C object CMakeFiles/cmTC_cd389.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=acos -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cd389.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'acos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'acos' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+1 warning generated.
+Linking C executable cmTC_cd389
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd389.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=acos -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cd389.dir/CheckFunctionExists.c.o  -o cmTC_cd389 -lm 
+
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0f3fd/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0f3fd.dir/build.make CMakeFiles/cmTC_0f3fd.dir/build
+Building C object CMakeFiles/cmTC_0f3fd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=asin -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_0f3fd.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'asin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+/usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'asin' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+1 warning generated.
+Linking C executable cmTC_0f3fd
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f3fd.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=asin -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0f3fd.dir/CheckFunctionExists.c.o  -o cmTC_0f3fd -lm 
+
+
+
+Determining if the function iconv_open exists in the iconv passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45176/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_45176.dir/build.make CMakeFiles/cmTC_45176.dir/build
+Building C object CMakeFiles/cmTC_45176.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=iconv_open -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_45176.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_45176
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45176.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=iconv_open -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_45176.dir/CheckFunctionExists.c.o  -o cmTC_45176 -liconv 
+
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6721/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b6721.dir/build.make CMakeFiles/cmTC_b6721.dir/build
+Building C object CMakeFiles/cmTC_b6721.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SA_SIGACTION -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b6721.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_b6721
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6721.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_SA_SIGACTION -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b6721.dir/src.c.o  -o cmTC_b6721 
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Determining if the function dlopen exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_baa7d/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_baa7d.dir/build.make CMakeFiles/cmTC_baa7d.dir/build
+Building C object CMakeFiles/cmTC_baa7d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_baa7d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_baa7d
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baa7d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=dlopen -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_baa7d.dir/CheckFunctionExists.c.o  -o cmTC_baa7d 
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following compile output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_abe91/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_abe91.dir/build.make CMakeFiles/cmTC_abe91.dir/build
+Building C object CMakeFiles/cmTC_abe91.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_PTHREADS  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_abe91.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_abe91
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abe91.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_PTHREADS  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_abe91.dir/src.c.o  -o cmTC_abe91 
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b1ee1/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b1ee1.dir/build.make CMakeFiles/cmTC_b1ee1.dir/build
+Building C object CMakeFiles/cmTC_b1ee1.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_RECURSIVE_MUTEXES  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b1ee1.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_b1ee1
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ee1.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_RECURSIVE_MUTEXES  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b1ee1.dir/src.c.o  -o cmTC_b1ee1 
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_292cc/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_292cc.dir/build.make CMakeFiles/cmTC_292cc.dir/build
+Building C object CMakeFiles/cmTC_292cc.dir/src.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_PTHREADS_SEM  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_292cc.dir/src.c.o   -c "/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_292cc
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_292cc.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DHAVE_PTHREADS_SEM  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_292cc.dir/src.c.o  -o cmTC_292cc 
+
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/build/sdl2-sys-215adec05a45805d/out/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6aa81/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6aa81.dir/build.make CMakeFiles/cmTC_6aa81.dir/build
+Building C object CMakeFiles/cmTC_6aa81.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6aa81.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.15.4/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6aa81
+/usr/local/Cellar/cmake/3.15.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aa81.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=pthread_setname_np  -D_THREAD_SAFE -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6aa81.dir/CheckFunctionExists.c.o  -o cmTC_6aa81 
+
+
+
