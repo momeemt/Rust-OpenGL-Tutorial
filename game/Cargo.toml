@@ -5,6 +5,7 @@ authors = ["aq17 <aqneco@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+gl = "0.10.0"
 
 [dependencies.sdl2]
 version = "0.31.0"
