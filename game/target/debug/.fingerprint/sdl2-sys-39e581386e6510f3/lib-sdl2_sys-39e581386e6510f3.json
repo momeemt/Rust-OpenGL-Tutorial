@@ -1,1 +1,0 @@
-{"rustc":18171040772492703089,"features":"[\"default\", \"use_mac_framework\"]","target":9963840452862221347,"profile":11870183705523825133,"path":16501088462816452268,"deps":[["libc v0.2.66","libc",8786200282201144103]],"local":[{"Precalculated":"0.32.6"}],"rustflags":[],"edition":"Edition2018"}

@@ -1,1 +1,0 @@
-{"rustc":18171040772492703089,"features":"[\"unicode-age\", \"unicode-bool\", \"unicode-case\", \"unicode-gencat\", \"unicode-perl\", \"unicode-script\", \"unicode-segment\"]","target":675341555152045435,"profile":11870183705523825133,"path":8729273393858705937,"deps":[],"local":[{"Precalculated":"0.6.12"}],"rustflags":[],"edition":"Edition2015"}

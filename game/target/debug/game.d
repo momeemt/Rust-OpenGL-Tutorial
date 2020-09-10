@@ -1,1 +1,0 @@
-/Users/momiyama/Framework/OpenGL(Rust)/game/target/debug/game: /Users/momiyama/Framework/OpenGL(Rust)/game/src/main.rs /Users/momiyama/Framework/OpenGL(Rust)/game/src/render_gl.rs /Users/momiyama/Framework/OpenGL(Rust)/game/src/triangle.frag /Users/momiyama/Framework/OpenGL(Rust)/game/src/triangle.vert
